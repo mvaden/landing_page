@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Landing Page</title>
-   <link rel="stylesheet" href="normalize-min.css">
-   <link rel="stylesheet" href="style.css">
-   <script src="index.js"></script>
-</head>
-<body>
-   <main>
-      <h1>We've got something good coming up!</h1>
-      <img src="people.svg" alt="A group of people standing together">
-      <ul>
-         <li>
-            Days 
-            <span id="days"></span>
-         </li>
-         <li>
-            Hours 
-            <span id="hours"></span>
-         </li>
-         <li>
-            Minutes 
-            <span id="minutes"></span>
-         </li>
-         <li>
-            Seconds 
-            <span id="seconds"></span>
-         </li>
-      </ul>
-   </main>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Landing Page</title>
+      <link rel="stylesheet" href="normalize-min.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="index.js"></script>
+   </head>
+   <body>
+      <main>
+         <div class="container_top-heading">
+            <h1>We've got something good coming up!</h1>
+         </div>
+         <div class="container_img-heading">
+            <img src="people.svg" alt="A group of people standing together">
+         </div>
+         <div class="container_time">
+            <ul>
+               <li>
+                  <div class="time-item" id="days"></div>
+                  Days 
+               </li>
+               <li>
+                  <div class="time-item" id="hours"></div>
+                  Hours 
+               </li>
+               <li>
+                  <div class="time-item" id="minutes"></div>
+                  Minutes 
+               </li>
+               <li>
+                  <div class="time-item" id="seconds"></div>
+                  Seconds 
+               </li>
+            </ul>
+         </div>
+      </main>
+   </body>
 </html>
