@@ -9,6 +9,11 @@ const countDown = () => {
    const day    = hour * 24;
 
    const returnedDay = Math.floor(timeDelta / day);
+   const returnedHour = Math.floor((timeDelta % day) / hour);
+   const returnedMinute = Math.floor((timeDelta % hour) / minute);
+   const returnedSecond = Math.floor((timeDelta % minute) / second);
+
+
 };
 
 countDown();
