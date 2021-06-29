@@ -20,4 +20,4 @@ const countDown = () => {
    document.getElementById("seconds").innerText = returnedSecond;
 };
 
-countDown();
+setInterval(() => countDown(), 1000);
