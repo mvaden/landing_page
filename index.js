@@ -14,6 +14,10 @@ const countDown = () => {
    const returnedSecond = Math.floor((timeDelta % minute) / second);
 
 
+   document.getElementById("days").innerText = returnedDay; 
+   document.getElementById("hours").innerText = returnedHour;
+   document.getElementById("minutes").innerText = returnedMinute;
+   document.getElementById("seconds").innerText = returnedSecond;
 };
 
 countDown();
